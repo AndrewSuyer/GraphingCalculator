@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Test.dir/TestCalculator.cpp.o -o Test  ../lib/libgtest_main.a ../calculator/libCalculatorLib.a ../lib/libgtest.a 

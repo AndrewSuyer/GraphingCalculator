@@ -1,0 +1,6 @@
+[0.1.0] - 1/10/24
+- Project configured with CMake to create MAKEFILE's for a 'Calculator' and 'Test' executables
+- Configured the googletest framework to autoamtically detect tests made in the 'test' directory.
+    - Tests are run by running the 'Test' executable located in /GraphingCalculator/build/Debug/test/Test
+- Started creation of the Calculator.h/Calculator.cpp files which handle the SFML window. Running the 'Calculator'
+    executable starts a blank window
