@@ -1,7 +1,8 @@
 
 set(SOURCES
+    ../main.cpp
     Calculator.h Calculator.cpp
-    ../main.cpp)
+    Graph.h Graph.cpp)
 
 # Create 'Calculator' executable
 add_executable(Calculator ${SOURCES})

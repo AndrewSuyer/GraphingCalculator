@@ -69,24 +69,10 @@ include calculator/CMakeFiles/Calculator.dir/progress.make
 # Include the compile flags for this target's objects.
 include calculator/CMakeFiles/Calculator.dir/flags.make
 
-calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: calculator/CMakeFiles/Calculator.dir/flags.make
-calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp
-calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: calculator/CMakeFiles/Calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o"
-	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o -MF CMakeFiles/Calculator.dir/Calculator.cpp.o.d -o CMakeFiles/Calculator.dir/Calculator.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp
-
-calculator/CMakeFiles/Calculator.dir/Calculator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/Calculator.cpp.i"
-	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp > CMakeFiles/Calculator.dir/Calculator.cpp.i
-
-calculator/CMakeFiles/Calculator.dir/Calculator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/Calculator.cpp.s"
-	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp -o CMakeFiles/Calculator.dir/Calculator.cpp.s
-
 calculator/CMakeFiles/Calculator.dir/__/main.cpp.o: calculator/CMakeFiles/Calculator.dir/flags.make
 calculator/CMakeFiles/Calculator.dir/__/main.cpp.o: /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp
 calculator/CMakeFiles/Calculator.dir/__/main.cpp.o: calculator/CMakeFiles/Calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object calculator/CMakeFiles/Calculator.dir/__/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object calculator/CMakeFiles/Calculator.dir/__/main.cpp.o"
 	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT calculator/CMakeFiles/Calculator.dir/__/main.cpp.o -MF CMakeFiles/Calculator.dir/__/main.cpp.o.d -o CMakeFiles/Calculator.dir/__/main.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp
 
 calculator/CMakeFiles/Calculator.dir/__/main.cpp.i: cmake_force
@@ -97,16 +83,46 @@ calculator/CMakeFiles/Calculator.dir/__/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/__/main.cpp.s"
 	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp -o CMakeFiles/Calculator.dir/__/main.cpp.s
 
+calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: calculator/CMakeFiles/Calculator.dir/flags.make
+calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp
+calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o: calculator/CMakeFiles/Calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o -MF CMakeFiles/Calculator.dir/Calculator.cpp.o.d -o CMakeFiles/Calculator.dir/Calculator.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp
+
+calculator/CMakeFiles/Calculator.dir/Calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/Calculator.cpp.i"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp > CMakeFiles/Calculator.dir/Calculator.cpp.i
+
+calculator/CMakeFiles/Calculator.dir/Calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/Calculator.cpp.s"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp -o CMakeFiles/Calculator.dir/Calculator.cpp.s
+
+calculator/CMakeFiles/Calculator.dir/Graph.cpp.o: calculator/CMakeFiles/Calculator.dir/flags.make
+calculator/CMakeFiles/Calculator.dir/Graph.cpp.o: /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp
+calculator/CMakeFiles/Calculator.dir/Graph.cpp.o: calculator/CMakeFiles/Calculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object calculator/CMakeFiles/Calculator.dir/Graph.cpp.o"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT calculator/CMakeFiles/Calculator.dir/Graph.cpp.o -MF CMakeFiles/Calculator.dir/Graph.cpp.o.d -o CMakeFiles/Calculator.dir/Graph.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp
+
+calculator/CMakeFiles/Calculator.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/Graph.cpp.i"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp > CMakeFiles/Calculator.dir/Graph.cpp.i
+
+calculator/CMakeFiles/Calculator.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/Graph.cpp.s"
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp -o CMakeFiles/Calculator.dir/Graph.cpp.s
+
 # Object files for target Calculator
 Calculator_OBJECTS = \
+"CMakeFiles/Calculator.dir/__/main.cpp.o" \
 "CMakeFiles/Calculator.dir/Calculator.cpp.o" \
-"CMakeFiles/Calculator.dir/__/main.cpp.o"
+"CMakeFiles/Calculator.dir/Graph.cpp.o"
 
 # External object files for target Calculator
 Calculator_EXTERNAL_OBJECTS =
 
-calculator/Calculator: calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o
 calculator/Calculator: calculator/CMakeFiles/Calculator.dir/__/main.cpp.o
+calculator/Calculator: calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o
+calculator/Calculator: calculator/CMakeFiles/Calculator.dir/Graph.cpp.o
 calculator/Calculator: calculator/CMakeFiles/Calculator.dir/build.make
 calculator/Calculator: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 calculator/Calculator: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
@@ -114,7 +130,7 @@ calculator/Calculator: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1
 calculator/Calculator: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 calculator/Calculator: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 calculator/Calculator: calculator/CMakeFiles/Calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Calculator"
 	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

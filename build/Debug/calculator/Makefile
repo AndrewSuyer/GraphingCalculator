@@ -216,6 +216,33 @@ Calculator.cpp.s:
 	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/CalculatorLib.dir/build.make calculator/CMakeFiles/CalculatorLib.dir/Calculator.cpp.s
 .PHONY : Calculator.cpp.s
 
+Graph.o: Graph.cpp.o
+.PHONY : Graph.o
+
+# target to build an object file
+Graph.cpp.o:
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/Calculator.dir/build.make calculator/CMakeFiles/Calculator.dir/Graph.cpp.o
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/CalculatorLib.dir/build.make calculator/CMakeFiles/CalculatorLib.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
+
+Graph.i: Graph.cpp.i
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/Calculator.dir/build.make calculator/CMakeFiles/Calculator.dir/Graph.cpp.i
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/CalculatorLib.dir/build.make calculator/CMakeFiles/CalculatorLib.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/Calculator.dir/build.make calculator/CMakeFiles/Calculator.dir/Graph.cpp.s
+	cd /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug && $(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/CalculatorLib.dir/build.make calculator/CMakeFiles/CalculatorLib.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
 __/main.o: __/main.cpp.o
 .PHONY : __/main.o
 
@@ -260,6 +287,9 @@ help:
 	@echo "... Calculator.o"
 	@echo "... Calculator.i"
 	@echo "... Calculator.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
 	@echo "... __/main.o"
 	@echo "... __/main.i"
 	@echo "... __/main.s"

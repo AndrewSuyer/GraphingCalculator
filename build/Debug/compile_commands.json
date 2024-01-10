@@ -1,15 +1,27 @@
 [
 {
   "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Calculator.dir/__/main.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
+  "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
+  "output": "calculator/CMakeFiles/Calculator.dir/__/main.cpp.o"
+},
+{
+  "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
   "command": "/usr/bin/c++   -g -o CMakeFiles/Calculator.dir/Calculator.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp",
   "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.cpp",
   "output": "calculator/CMakeFiles/Calculator.dir/Calculator.cpp.o"
 },
 {
   "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Calculator.dir/__/main.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Calculator.dir/Graph.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp",
+  "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp",
+  "output": "calculator/CMakeFiles/Calculator.dir/Graph.cpp.o"
+},
+{
+  "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/CalculatorLib.dir/__/main.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
   "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
-  "output": "calculator/CMakeFiles/Calculator.dir/__/main.cpp.o"
+  "output": "calculator/CMakeFiles/CalculatorLib.dir/__/main.cpp.o"
 },
 {
   "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
@@ -19,9 +31,9 @@
 },
 {
   "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/calculator",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/CalculatorLib.dir/__/main.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
-  "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp",
-  "output": "calculator/CMakeFiles/CalculatorLib.dir/__/main.cpp.o"
+  "command": "/usr/bin/c++   -g -o CMakeFiles/CalculatorLib.dir/Graph.cpp.o -c /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp",
+  "file": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.cpp",
+  "output": "calculator/CMakeFiles/CalculatorLib.dir/Graph.cpp.o"
 },
 {
   "directory": "/home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/build/Debug/test",
