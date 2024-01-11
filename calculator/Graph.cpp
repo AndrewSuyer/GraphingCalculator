@@ -5,13 +5,20 @@
 
 #include "Graph.h"
 
+
 Graph::Graph()
-{}
+{
+    // Initialize instance variables
+}
 
 
 void Graph::setSize(const sf::Vector2u& size)
 {}
 
 
-void Graph::mousePressed(const sf::Vector2u& position, const sf::RenderWindow& relativeTo)
+void Graph::mouseLeftClick(const sf::Vector2i& position)
+{}
+
+
+void Graph::mouseScroll(const sf::Vector2i& position, double scrollDelta)
 {}

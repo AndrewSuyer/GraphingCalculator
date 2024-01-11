@@ -4,7 +4,6 @@
  */
 
 #include "Calculator.h"
-#include <iostream>
 
 #include <SFML/Window/Event.hpp>
 
@@ -48,7 +47,16 @@ short Calculator::processEvents()
                 break;
                 
             case Event::Resized:
-                // send resize signal to m_graph 
+                m_graph.setSize(m_window.getSize());
+                break;
+
+            case Event::MouseButtonPressed:
+                if(event.mouseButton.button == sf::Mouse::Left)
+                    m_graph.mouseLeftClick(sf::Mouse::getPosition(m_window));
+                break;
+
+            case Event::MouseWheelScrolled:
+                m_graph.mouseScroll(sf::Mouse::getPosition(m_window), event.mouseWheel.delta);
                 break;
         }
         ++eventCount;
@@ -65,8 +73,6 @@ void Calculator::update()
 
 void Calculator::render()
 {
-    std::cout << "Rendering\n";
-
     m_window.clear(sf::Color::Black);
     // draw things
     m_window.display();

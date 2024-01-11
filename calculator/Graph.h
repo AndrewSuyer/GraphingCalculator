@@ -20,11 +20,18 @@ public:
 // Window event handling
 public:
 
-    /// For window Resized event
+    /// Handle window Resized event.
+    /// @param size - New window size
     void setSize(const sf::Vector2u& size);
 
-    /// For window MouseButtonPressed event
-    void mousePressed(const sf::Vector2u& position, const sf::RenderWindow& relativeTo);
+    /// Handle window MouseButtonPressed event.
+    /// @param position - Mouse position relative to window
+    void mouseLeftClick(const sf::Vector2i& position);
+
+    /// Handle window MouseScrolled event.
+    /// @param position - Mouse position relative to window
+    /// @param scrollDelta - scroll wheel delta
+    void mouseScroll(const sf::Vector2i& position, double scrollDelta);
 
 // Instance variables
 private:

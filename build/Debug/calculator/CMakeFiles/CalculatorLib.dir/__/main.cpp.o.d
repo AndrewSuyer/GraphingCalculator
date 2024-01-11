@@ -2,13 +2,14 @@ calculator/CMakeFiles/CalculatorLib.dir/__/main.cpp.o: \
  /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/main.cpp \
  /usr/include/stdc-predef.h \
  /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Calculator.h \
+ /home/andrewsuyer/Documents/CodingProjects/C++/GraphingCalculator/calculator/Graph.h \
+ /usr/include/SFML/System/Vector2.hpp \
+ /usr/include/SFML/System/Vector2.inl \
  /usr/include/SFML/Graphics/RenderWindow.hpp \
  /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/Graphics/RenderTarget.hpp \
  /usr/include/SFML/Graphics/Color.hpp /usr/include/SFML/Graphics/Rect.hpp \
- /usr/include/SFML/System/Vector2.hpp \
- /usr/include/SFML/System/Vector2.inl /usr/include/c++/13/algorithm \
- /usr/include/c++/13/bits/stl_algobase.h \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

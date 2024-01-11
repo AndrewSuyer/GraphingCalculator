@@ -8,4 +8,5 @@
 [0.1.1] - 
 - Created Graph.h/Graph.cpp with preparation for new components and the following window event handlers:
     - Resized: setSize()
-    - MouseButtonPressed: mousePressed()
+    - MouseButtonPressed: mouseLeftClick()
+    - MouseScrolled: mouseScroll()
